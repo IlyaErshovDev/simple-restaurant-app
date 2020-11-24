@@ -1,0 +1,134 @@
+.cart {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    min-height: 100vh;
+    &__title {
+        font-size: 36px;
+        color: #fff;
+        text-align: center;
+        font-weight: 300;
+    }
+    &__message {
+        margin-top: 15px;
+        font-size: 28px;
+        color: #fff;
+        text-align: center;
+        font-weight: 250;
+    }
+    &__list {
+        width: 60%;
+        margin: 0 auto;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        border: 1px solid rgba(256,256,256, .2);
+        background-color: rgba(0,0,0,.7);
+        box-shadow: 0 0 20px rgba(256,256,256, .1);
+        &-title, &-price  {
+            width: 200px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        &-img {
+            height: 125px;
+            width: 250px;
+            object-fit: cover;
+        }
+    }
+    &__close {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        top: -10px;
+        right: -10px;
+        color: #40a9ff;
+        font-size: 20px;
+        border-radius: 100%;
+        border: 1px solid #40a9ff;
+        cursor: pointer;
+    }
+    &__close:hover {
+        background: rgba(256,256,256, .1);
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    }
+    &__order_box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        &-title, &-total  {
+            width: 200px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        &-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(0,0,0,.7);
+            border: 1px solid #40a9ff;
+            box-sizing: border-box;
+            border-radius: 2px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            color: #40a9ff;
+            margin-right: 10px;
+            padding: 10px;
+        }
+        &-btn:hover {
+            background: rgba(256,256,256, .1);
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+    }
+}
+
+.food-counter {
+    display: flex;
+    align-items: center;
+}
+.counter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 39px;
+    height: 32px;
+    background: rgba(0,0,0,.7);
+    border: 1px solid #40a9ff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #40a9ff;
+    margin-right: 10px;
+}
+.counter-button:hover {
+    background: rgba(256,256,256, .1);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.counter {
+
+
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a, button {
+    cursor: pointer;
+    color: inherit;
+}
