@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/simple-restaurant-app/static/css/main.69d9c981.chunk.css",
+    "main.js": "/simple-restaurant-app/static/js/main.c6484326.chunk.js",
+    "main.js.map": "/simple-restaurant-app/static/js/main.c6484326.chunk.js.map",
+    "runtime~main.js": "/simple-restaurant-app/static/js/runtime~main.0d9bb980.js",
+    "runtime~main.js.map": "/simple-restaurant-app/static/js/runtime~main.0d9bb980.js.map",
+    "static/js/2.11692327.chunk.js": "/simple-restaurant-app/static/js/2.11692327.chunk.js",
+    "static/js/2.11692327.chunk.js.map": "/simple-restaurant-app/static/js/2.11692327.chunk.js.map",
+    "index.html": "/simple-restaurant-app/index.html",
+    "precache-manifest.13e0973ce28568044809854d99c50d86.js": "/simple-restaurant-app/precache-manifest.13e0973ce28568044809854d99c50d86.js",
+    "service-worker.js": "/simple-restaurant-app/service-worker.js",
+    "static/css/main.69d9c981.chunk.css.map": "/simple-restaurant-app/static/css/main.69d9c981.chunk.css.map",
+    "static/media/food-bg.jpg": "/simple-restaurant-app/static/media/food-bg.698e5e80.jpg",
+    "static/media/shopping-cart-solid.svg": "/simple-restaurant-app/static/media/shopping-cart-solid.701d6d1d.svg"
+  }
+}
